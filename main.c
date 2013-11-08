@@ -213,7 +213,7 @@ switch(ycycle)
 
 
 }
-//Calculate X Axis Stepper Motor Steps (1.8 degree / step motor)
+//Calculate X Axis Stepper Motor Steps (1.8 degree / step)
 long int CalculateXSteps(float DistanceInCm)
 {
    long int steps = 0;
@@ -222,7 +222,7 @@ long int CalculateXSteps(float DistanceInCm)
    
    return steps;
 }
-//Calculate Y Axis Stepper Motor Steps (1.8 degree / step motor)
+//Calculate Y Axis Stepper Motor Steps (1.8 degree / step)
 long int CalculateYSteps(float DistanceInCm)
 {
    long int steps = 0;
